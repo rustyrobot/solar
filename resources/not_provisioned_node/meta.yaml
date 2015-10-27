@@ -14,6 +14,9 @@ input:
     admin_mac:
       schema: str!
       value:
+    idx:
+      schema: str!
+      value:
     name:
       schema: str
       value: a node
@@ -21,5 +24,8 @@ input:
       schema: str!
       value: $uuid
       reverse: True
+    partitioning:
+      value:
+      schema: dict!
 
 tags: [resources=node]

@@ -6,3 +6,5 @@ set -eux
 # dependency `run` -> `provision`
 
 exit 0
+
+{{partitioning | to_json }}
